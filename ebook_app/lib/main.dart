@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './widgets/rounded_button.dart';
 
 void main() => runApp(MyApp());
 
@@ -48,7 +49,11 @@ class WelcomeScreen extends StatelessWidget {
             ),
             SizedBox(
               width: MediaQuery.of(context).size.width * .6,
-              child: Text('Button'),
+              child: RoundedButton(
+                text: "start reading",
+                fontSize: 20,
+                press: (){},
+              ),
             ),
           ],
         ),
