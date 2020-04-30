@@ -1,7 +1,7 @@
+import 'package:flutter/material.dart';
 import '../constants.dart';
 import '../widgets/book_rating.dart';
 import '../widgets/rounded_button.dart';
-import 'package:flutter/material.dart';
 
 class DetailsScreen extends StatelessWidget {
   @override
